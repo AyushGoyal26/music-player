@@ -13,6 +13,8 @@ class Nav extends StatefulWidget {
 class _NavState extends State<Nav> {
   final tabs=[Home(),Search(), Library()];
   int curr_ind=0;
+
+  miniplayer(){}
   @override
   Widget build(BuildContext context) {
     return Scaffold(
